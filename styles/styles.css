@@ -8,8 +8,47 @@
     bottom: 0px;
     height: 35px;
     width: 100%;
-    background: #1abc9c;
+    background: initial;
 }
-p {
+#ul{
+color: red  
+}
+#img{
+border: 2px solid black;
+}
+table {
+    border: 1px solid blue;
+}
+
+tr {
+    padding: 7px;
+}
+
+th {
+    font-weight: bold;
+}
+
+td {
+    font-style: italic;
+}
+.section-header {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.section-header {
+text-emphasis: none;
+}
+.section-header {
+text-underline-position: auto;
+}
+a[title] {
     color: blue;
+}
+div p.first {
+ font-weight: bold
+}
+ul li {
+    border: 1px solid black;
+width: 100px
 }
